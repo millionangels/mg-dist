@@ -1291,19 +1291,37 @@ h3 {
   color: #333333; }
   .logo__name:hover, .logo__name:focus, .logo__name.open {
     color: #A9A9A9; }
+  @media screen and (max-width: 480px) {
+    .logo__name {
+      font-size: 40px; } }
+  @media screen and (max-width: 320px) {
+    .logo__name {
+      font-size: 32px; } }
 .logo__tagline {
   margin-top: 0px;
   font-family: "Lora", "Times", serif;
   font-weight: 100;
   font-size: 21px; }
+  @media screen and (max-width: 480px) {
+    .logo__tagline {
+      font-size: 16px; } }
 
 .serial {
   color: #B7C9D7;
   font-size: 48px;
   font-family: "Vollkorn", "Times", serif; }
+  @media screen and (max-width: 480px) {
+    .serial {
+      font-size: 40px; } }
+  @media screen and (max-width: 320px) {
+    .serial {
+      font-size: 32px; } }
 
 .borderleft {
   border-left: 1px solid #333333; }
+  @media screen and (max-width: 480px) {
+    .borderleft {
+      border-left: 0px; } }
 
 blockquote {
   font-size: 30px;
@@ -1449,6 +1467,14 @@ blockquote {
   display: block;
   padding: 10px 15px;
   border: 0px; }
+  @media screen and (max-width: 480px) {
+    .nav--inline ul li {
+      padding: 10px 10px;
+      font-size: 14px; } }
+  @media screen and (max-width: 320px) {
+    .nav--inline ul li {
+      padding: 10px 10px;
+      font-size: 13px; } }
   .nav--inline ul li a {
     padding: 0px;
     background: none; }
@@ -1460,6 +1486,9 @@ blockquote {
   font-weight: 700;
   text-transform: uppercase;
   padding-bottom: 30px; }
+  @media screen and (max-width: 480px) {
+    .mainnav {
+      padding-bottom: 10px; } }
   .mainnav ul li {
     border-top: 10px solid #B7C9D7; }
     .mainnav ul li:hover, .mainnav ul li:focus, .mainnav ul li.open {
